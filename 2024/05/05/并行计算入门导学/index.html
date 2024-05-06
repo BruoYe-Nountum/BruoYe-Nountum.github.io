@@ -16,24 +16,22 @@
   <meta name="author" content="BIGHH">
   <meta name="keywords" content="">
   
-    <meta name="description" content="踱步 古体类 2023&#x2F;10&#x2F;28作  百丈回廊，踱不尽南柯一梦。依稀灯火，望不见玉印娇娥。少不知味，欲比冠军候。今知事难，李广亦可当。前日惶惶恐失志，今朝碌碌患无为。月有圆缺人有命，事有悲欢由人心。罢，罢，罢半罐可乐唆下肚，管甚他来日方长！">
+    <meta name="description" content="作为第一篇技术类文章（写着一篇纯属看到其他人都写的是技术类博客），本文章并不专注于讲授知识，而是大致地提供学习知识的路径和方法。时间紧迫，日后会缓慢更新。 超算竞赛如果你是打算参加超算竞赛，那么你应该需要了解超算竞赛的流程，这里推荐《超算竞赛导引》，里面详细介绍了超算竞赛的流程，你可以很轻易的在浏览器中搜索到这个资源 主要组成部分：集群搭建、跑分、应用优化 linux系统基础 基本命令行的使用 环">
 <meta property="og:type" content="article">
-<meta property="og:title" content="踱步">
-<meta property="og:url" content="https://bruoye-nountum.github.io/2024/05/05/%E8%B8%B1%E6%AD%A5/index.html">
+<meta property="og:title" content="并行计算入门导学">
+<meta property="og:url" content="https://bruoye-nountum.github.io/2024/05/05/%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97%E5%85%A5%E9%97%A8%E5%AF%BC%E5%AD%A6/index.html">
 <meta property="og:site_name" content="BIGHH&#39;s WEB">
-<meta property="og:description" content="踱步 古体类 2023&#x2F;10&#x2F;28作  百丈回廊，踱不尽南柯一梦。依稀灯火，望不见玉印娇娥。少不知味，欲比冠军候。今知事难，李广亦可当。前日惶惶恐失志，今朝碌碌患无为。月有圆缺人有命，事有悲欢由人心。罢，罢，罢半罐可乐唆下肚，管甚他来日方长！">
+<meta property="og:description" content="作为第一篇技术类文章（写着一篇纯属看到其他人都写的是技术类博客），本文章并不专注于讲授知识，而是大致地提供学习知识的路径和方法。时间紧迫，日后会缓慢更新。 超算竞赛如果你是打算参加超算竞赛，那么你应该需要了解超算竞赛的流程，这里推荐《超算竞赛导引》，里面详细介绍了超算竞赛的流程，你可以很轻易的在浏览器中搜索到这个资源 主要组成部分：集群搭建、跑分、应用优化 linux系统基础 基本命令行的使用 环">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://bruoye-nountum.github.io/img/%E8%B8%B1%E6%AD%A5.jpg">
 <meta property="article:published_time" content="2024-05-05T14:10:10.000Z">
-<meta property="article:modified_time" content="2024-05-05T08:45:40.137Z">
+<meta property="article:modified_time" content="2024-05-05T11:56:57.302Z">
 <meta property="article:author" content="BIGHH">
-<meta property="article:tag" content="古体">
+<meta property="article:tag" content="并行计算">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://bruoye-nountum.github.io/img/%E8%B8%B1%E6%AD%A5.jpg">
   
   
   
-  <title>踱步 - BIGHH&#39;s WEB</title>
+  <title>并行计算入门导学 - BIGHH&#39;s WEB</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -199,7 +197,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="踱步"></span>
+            <span id="subtitle" data-typed-text="并行计算入门导学"></span>
           
         </div>
 
@@ -222,7 +220,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          96 字
+          566 字
         
       </span>
     
@@ -233,7 +231,7 @@
         
         
         
-          1 分钟
+          5 分钟
         
       </span>
     
@@ -270,15 +268,41 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">踱步</h1>
+            <h1 id="seo-header">并行计算入门导学</h1>
             
             
               <div class="markdown-body">
                 
-                <h2 id="踱步"><a href="#踱步" class="headerlink" title="踱步"></a>踱步</h2><blockquote>
-<p>古体类 2023&#x2F;10&#x2F;28作</p>
-</blockquote>
-<p>百丈回廊，踱不尽南柯一梦。<br>依稀灯火，望不见玉印娇娥。<br>少不知味，欲比冠军候。<br>今知事难，李广亦可当。<br>前日惶惶恐失志，今朝碌碌患无为。<br>月有圆缺人有命，事有悲欢由人心。<br>罢，罢，罢<br>半罐可乐唆下肚，管甚他来日方长！</p>
+                <p>作为第一篇技术类文章（写着一篇纯属看到其他人都写的是技术类博客），本文章并不专注于讲授知识，而是大致地提供学习知识的路径和方法。时间紧迫，日后会缓慢更新。</p>
+<h2 id="超算竞赛"><a href="#超算竞赛" class="headerlink" title="超算竞赛"></a>超算竞赛</h2><p>如果你是打算参加超算竞赛，那么你应该需要了解超算竞赛的流程，这里推荐《超算竞赛导引》，里面详细介绍了超算竞赛的流程，你可以很轻易的在浏览器中搜索到这个资源</p>
+<p>主要组成部分：集群搭建、跑分、应用优化</p>
+<h2 id="linux系统基础"><a href="#linux系统基础" class="headerlink" title="linux系统基础"></a>linux系统基础</h2><ul>
+<li>基本命令行的使用</li>
+<li>环境管理工具</li>
+<li>各种奇奇怪怪的编译</li>
+</ul>
+<h2 id="并行编程"><a href="#并行编程" class="headerlink" title="并行编程"></a>并行编程</h2><p>如何利用有限的硬件资源跑得更快，这就是并行编程。并行的类型可分为数据并行以及任务并行，在层次上可分为线程级并行和进程级并行。</p>
+<h3 id="线程级并行"><a href="#线程级并行" class="headerlink" title="线程级并行"></a>线程级并行</h3><p>通常我们的程序都是单进程单线程一个核，如果我们开启多线程，就可以单进程多线程多个核。这种方法主要用于一个节点中，使用共享内存模型。</p>
+<p>主要工具：openmp（非常简单）</p>
+<p>学习资料：</p>
+<p>《并行计算导论第四章》</p>
+<h3 id="进程级并行"><a href="#进程级并行" class="headerlink" title="进程级并行"></a>进程级并行</h3><p>这个方法主要用于不同节点中，使用分布式内存模型，需要注意通信问题。</p>
+<p>主要工具: intel mpi &#x2F; openmpi（难度一般）</p>
+<p>学习资料：</p>
+<p><a target="_blank" rel="noopener" href="https://www.intel.com/content/www/us/en/docs/mpi-library/developer-guide-linux/2021-12/running-an-mpi-program.html">Running an MPI Program (intel.com)</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.open-mpi.org/">Open MPI: Open Source High Performance Computing (open-mpi.org)</a></p>
+<h3 id="并行编程技巧"><a href="#并行编程技巧" class="headerlink" title="并行编程技巧"></a>并行编程技巧</h3><p>流水线并行。</p>
+<p>数据依赖问题。</p>
+<p>缓存命中问题。</p>
+<p>向量运算。</p>
+<p>编译器优化。</p>
+<h2 id="并行硬件"><a href="#并行硬件" class="headerlink" title="并行硬件"></a>并行硬件</h2><p>了解并行硬件是跑分和优化题的基础。主要了解关于缓存的知识（访问一次主存的时间约好几千个时钟周期，辅存更甚）</p>
+<h2 id="GPU编程"><a href="#GPU编程" class="headerlink" title="GPU编程"></a>GPU编程</h2><p>并行计算中主要使用CUDA c++而非python。</p>
+<p>一般而言，GPU适合简单且密集的运算，CPU适合复杂的运算。GPU有多个SM（类比于CPU的一个核），每个SM有多个计算核心。</p>
+<p>学习资料：</p>
+<p><a target="_blank" rel="noopener" href="https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html">CUDA C++ Programming Guide (nvidia.com)</a></p>
+<p><a target="_blank" rel="noopener" href="https://docs.nvidia.com/cuda/">CUDA Toolkit Documentation 12.4 (nvidia.com)</a></p>
+<p><a target="_blank" rel="noopener" href="https://face2ai.com/program-blog/#GPU%E7%BC%96%E7%A8%8B%EF%BC%88CUDA%EF%BC%89">人工智能编程 | 谭升的博客 (face2ai.com)</a></p>
 
                 
               </div>
@@ -297,7 +321,7 @@
     
       <span class="category-chain">
         
-  <a href="/categories/%E5%8F%A4%E4%BD%93/" class="category-chain-item">古体</a>
+  <a href="/categories/%E6%8A%80%E6%9C%AF%E7%B1%BB/" class="category-chain-item">技术类</a>
   
   
 
@@ -312,7 +336,7 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/%E5%8F%A4%E4%BD%93/" class="print-no-link">#古体</a>
+        <a href="/tags/%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97/" class="print-no-link">#并行计算</a>
       
     </div>
   
@@ -324,8 +348,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>踱步</div>
-      <div>https://bruoye-nountum.github.io/2024/05/05/踱步/</div>
+      <div>并行计算入门导学</div>
+      <div>https://bruoye-nountum.github.io/2024/05/05/并行计算入门导学/</div>
     </div>
     <div class="license-meta">
       
@@ -369,9 +393,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/05/05/%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97%E5%85%A5%E9%97%A8%E5%AF%BC%E5%AD%A6/" title="并行计算入门导学">
+                      <a href="/2024/05/05/U/" title="2023/9/17周记">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">并行计算入门导学</span>
+                        <span class="hidden-mobile">2023/9/17周记</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -379,8 +403,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2024/05/05/%E8%BF%99%E6%9C%9B%E4%B8%8D%E8%A7%81%E5%A4%B4%E7%9A%84%E9%81%93%E8%B7%AF/" title="这望不见头的道路">
-                        <span class="hidden-mobile">这望不见头的道路</span>
+                      <a href="/2024/05/05/%E8%B8%B1%E6%AD%A5/" title="踱步">
+                        <span class="hidden-mobile">踱步</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
